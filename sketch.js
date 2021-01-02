@@ -21,12 +21,14 @@ function setup(){
     tom.addAnimation("hii",tomAnimation2);
     tom.addAnimation("hiii",tomAnimation3);
     tom.scale = 0.1;
+    tom.debug=false;
 
     jerry = createSprite(50,600,20,20);
     jerry.addAnimation("jerryImg",jerryAnimation1);
     jerry.addAnimation("jerryAni",jerryAnimation2);
     jerry.addAnimation("je",jerryAnimation3);
     jerry.scale=0.06;
+    jerry.debug=false;
 }
 
 function draw() {
